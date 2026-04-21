@@ -1,0 +1,31 @@
+
+
+
+
+
+
+02_youtube_serenity_api/
+├─ src/ 
+│  └─ test/ 
+│     ├─ java/ 
+│     │  └─ com/
+│     │     └─ knotacademy/ 
+│     │        └─ qc/ 
+│     │           └─ serenity/ - Código específico de Serenity.
+│     │              └─ youtube/ - Módulo de pruebas para la API de YouTube.
+│     │                 ├─ models/ - Clases de datos y modelos usados en las pruebas API.
+│     │                 ├─ runners/ - Clases runner que configuran y ejecutan los tests.
+│     │                 ├─ stepdefinitions/ - Definiciones de pasos para escenarios Cucumber.
+│     │                 └─ steps/ - Implementaciones de pasos y acciones de prueba.
+│     └─ resources/ - Recursos usados por las pruebas.
+│        ├─ features/ - Archivos de características Cucumber (.feature) organizados por dominio.
+│        │  ├─ categories/ - Escenarios de prueba relacionados con categorías de YouTube.
+│        │  ├─ channels/ - Escenarios de prueba relacionados con canales de YouTube.
+│        │  ├─ search/ - Escenarios de prueba relacionados con búsquedas de YouTube.
+│        │  └─ videos/ - Escenarios de prueba relacionados con videos de YouTube.
+│        └─ serenity.conf - Archivo de configuración de Serenity para la ejecución de pruebas.
+└─ target/ - Carpeta generada por Maven con clases compiladas, reportes y resultados de build.
+
+
+
+

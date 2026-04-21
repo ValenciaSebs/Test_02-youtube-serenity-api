@@ -1,0 +1,17 @@
+.DS_Store
+.idea/
+.classpath
+.project
+.settings/
+
+output/
+**/target/
+**/allure-results/
+**/allure-report/
+**/salida/
+
+*.log
+*.tmp
+
+**/serenity.local.conf
+**/.env
