@@ -9,6 +9,7 @@ on:
     branches:
       - main
       - develop
+      - feature
       - 'feature/*'
   pull_request:
     branches: [main]
@@ -40,4 +41,3 @@ jobs:
           path: target/site/serenity/
           retention-days: 14
 
-          
