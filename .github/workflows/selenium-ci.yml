@@ -30,7 +30,7 @@ jobs:
           cache: 'maven' # Simplifica el cache que tenías antes
 
       - name: Run Serenity Tests
-        # Usamos verify para que Serenity genere el reporte HTML detallado
+        working-directory: plantillas/02_youtube_serenity_api
         run: mvn -B clean verify
         
       - name: Upload Serenity Reports
